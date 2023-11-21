@@ -339,6 +339,7 @@ plt.legend()
 plt.title("Customer Segments")
 ```
 ## 9.
+```py
 import pandas as pd
 data=pd.read_csv("spam.csv",encoding='latin-1')
 
@@ -371,3 +372,4 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 
+```
